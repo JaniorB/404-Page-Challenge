@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 header{
     position: absolute;
     position: relative;
@@ -29,7 +31,7 @@ header{
     bottom: 34.03%;
 }
 
-#msg-1 {
+h1 {
     position: absolute;
     width: 586px;
     height: 190px;
@@ -44,7 +46,7 @@ header{
     color: #333333;
 }
 
-#msg-2{
+.sub{
     position: absolute;
     width: 381px;
     height: 108px;
@@ -93,22 +95,79 @@ footer{
     line-height: 17px;
 }
 
-@media(max-width: 800px;){
-
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-        align-items: center;
-    }
+@media(max-width: 800px){
 
     header{
-        position: relative;
+        position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+
     }
 
     #scarecrow{
-        position: relative;
+        position: absolute;
+        left: 11.73%;
+        right: 11.78%;
+        top: 11.49%;
+        bottom: 63.44%;
     }
+
+    #msg-1{
+        /* I have bad news for you */
+
+
+        position: absolute;
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+
+        /* Gray 1 */
+
+        color: #333333;
+    }
+
+    #msg-2{
+        /* The page you are looking for might be removed or is temporarily unavailable */
+
+
+        position: absolute;
+        width: 328px;
+        height: 81px;
+        left: 23px;
+        top: 578px;
+
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+
+        /* Gray 2 */
+
+        color: #4F4F4F;
+    }
+
 }
 
 
